@@ -1,0 +1,30 @@
+body
+{
+	margin: 0;
+}
+
+td {
+  padding: 15px;
+ 
+  text-align: center;
+  vertical-align: middle;
+}
+
+.pf{
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size:14px;
+}
+a:hover 
+{
+  display: inline-block;
+  color: white;
+}
+
+
+a
+{
+	font-family: 'Roboto', sans-serif;
+	color: #E5E7E9;
+	font-size:16px;
+  	text-decoration:none;
+}

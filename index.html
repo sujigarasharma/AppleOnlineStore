@@ -1,0 +1,222 @@
+<html>
+<head>
+	<title> Apple Online Store </title>
+	<link rel="stylesheet" href="css/styletop.css"> 
+	<style>
+
+	.slideshow-container {
+	  max-width: 1200px;
+	  position: relative;
+	  margin: auto;
+	}
+
+
+	.text {
+	 
+	  position: absolute;
+	 top: 30;
+  	font-family: 'Open Sans', sans-serif;
+  	color: #f2f2f2;
+  	font-size:50px;
+   right: 0px;
+    left: 0px;
+	 text-align: center;
+	}
+	.text2 {
+	 
+	  position: absolute;
+	 top: 100;
+  	font-family: 'Open Sans', sans-serif;
+  	color: #f2f2f2;
+  	font-size:50px;
+   right: 0px;
+    left: 0px;
+	 text-align: center;
+	}
+
+	.dot {
+	  height: 5px;
+	  width: 5px;
+	  margin: 0 2px;
+	  background-color: #002222;
+	  border-radius: 50%;
+	  display: inline-block;
+	  transition: background-color 0.6s ease;
+	}
+
+	.active {
+	  background-color: #717171;
+	}
+
+	/* Fading animation */
+	.fade {
+	  -webkit-animation-name: fade;
+	  -webkit-animation-duration: 1.5s;
+	  animation-name: fade;
+	  animation-duration: 1.5s;
+	}
+
+	@-webkit-keyframes fade {
+	  from {opacity: .4} 
+	  to {opacity: 1}
+	}
+
+	@keyframes fade {
+	  from {opacity: .4} 
+	  to {opacity: 1}
+	}
+	.prev, .next {
+	  cursor: pointer;
+	  position: absolute;
+	  top: 50%;
+	  width: auto;
+	  padding: 16px;
+	  margin-top: -22px;
+	  color: #002222;
+	  font-weight: bold;
+	  font-size: 18px;
+	  transition: 0.6s ease;
+	  border-radius: 0 3px 3px 0;
+	  user-select: none;
+	}
+
+	.next {
+	  right: 0;
+	  border-radius: 3px 0 0 3px;
+	}
+	.prev {
+	  left: 0;
+	  border-radius: 3px 0 0 3px;
+	}
+
+	.prev:hover, .next:hover {
+	  background-color: rgba(0,0,0,0.8);
+	}
+
+
+	</style>
+	
+		  
+		
+</head>
+<body bgcolor=#00000 align = "center">
+	<center>
+	<table >
+		<tr>
+			
+			<td>
+			<a href = "userlogin.html" target = "_parent">Store</a></td>
+			<td>
+			<a href = "userlogin.html" target = "_parent">iPhone</a></td>
+			<td>
+			<a href = "userlogin.html" target = "_parent">Mac</a></td>
+			<td><a href = "userlogin.html" target = "_parent">
+				<img src = img/apple_logo.png height =25px width =25px></a></td>
+			<td>
+			<a href = "userlogin.html" target = "_parent">iPad</a></td>
+			<td>
+			<a href = "userlogin.html" target = "_parent">Watch</a></td>
+			<td>
+			<a href = "userlogin.html" target = "_parent">Accessories</a></td>
+			<td>
+			
+		
+		</tr>
+	</table>
+	<div class="slideshow-container">
+		<a href = "userlogin.html" target = "_parent">
+
+		<div class="mySlides fade">
+  				<div class="text">The best experiences.</div>
+				<div class="text2">Only on Apple.</div>
+ 			<img src="img/bg1.jpg" style="width:80%">
+		</div>
+
+		<div class="mySlides fade">
+  		 	<img src="img/bg2.jpg" style="width:80%">
+		</div>
+
+		<div class="mySlides fade">
+  		
+ 		 	<img src="img/bg3.jpg" style="width:80%">
+	 	</div>
+
+		<div class="mySlides fade">
+  		  <div class="text">Oh. So. Pro.</div>
+  		  	<img src="img/bg4.jpg" style="width:80%">
+		</div>
+
+		<div class="mySlides fade">
+  		 
+  		  	<img src="img/bg5.jpg" style="width:80%">
+		</div>
+		
+		<div class="mySlides fade">
+  		  
+  		  	<img src="img/bg6.jpg" style="width:80%">
+		</div>
+	</a>
+
+		<a class="prev" onclick="changeSlides(-1)">&#10094;</a>
+		<a class="next" onclick="changeSlides(1)">&#10095;</a>
+	
+	</div>
+	<br>
+	<div style="text-align:center">
+  	  	<span class="dot"></span> 
+ 	   	<span class="dot"></span> 
+ 	   	<span class="dot"></span> 
+  	  	<span class="dot"></span> 
+  	  	<span class="dot"></span> 
+		<span class="dot"></span> 
+	</div>
+	
+	<script>
+		var slideIndex = 0;
+		showSlides();
+
+		function changeSlides(n) {
+	  	  showSlidesbut(slideIndex += n);
+		}
+
+		function showSlidesbut(n) {
+	  	  	var i;
+	  		var slides = document.getElementsByClassName("mySlides");
+	  		var dots = document.getElementsByClassName("dot");
+	  	  	if (n > slides.length) {slideIndex = 1}    
+	  	  		if (n < 1) {slideIndex = slides.length}
+	  		  	for (i = 0; i < slides.length; i++) {
+	      		  	slides[i].style.display = "none";  
+	  			}
+	  		  	for (i = 0; i < dots.length; i++) {
+	      			dots[i].className = dots[i].className.replace(" active", "");
+	  		  	}
+	  		  	slides[slideIndex-1].style.display = "block";  
+	  		  	dots[slideIndex-1].className += " active";
+			}
+
+
+		function showSlides(n) 
+		{
+			var i;
+	  	  	var slides = document.getElementsByClassName("mySlides");
+	  		var dots = document.getElementsByClassName("dot");
+	  	  	for (i = 0; i < slides.length; i++) {
+	    		slides[i].style.display = "none";  
+	  	  	}
+  
+	  	  	slideIndex++;
+	  	  	if (slideIndex > slides.length) {slideIndex = 1}  
+	  	  	for (i = 0; i < dots.length; i++) {
+	    		dots[i].className = dots[i].className.replace(" active", "");
+	  	  	}
+  
+	  	  	slides[slideIndex-1].style.display = "block";  
+	  	  	dots[slideIndex-1].className += " active";
+	 	   	setTimeout(showSlides, 5000); 
+		}
+
+	</script>
+	
+</body>		
+</html>

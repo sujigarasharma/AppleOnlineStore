@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@150&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,200&display=swap');
+body
+{
+	margin: 0;
+
+}
+.hfra
+{
+	
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	font-size:20px;
+	margin-left: 120px;
+	
+}
+
+.hf
+{
+	
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	font-size:35px;
+	
+}
+.tas
+{
+	font-family: 'Nunito Sans', sans-serif;
+	color: #595858;
+	font-size:15px;
+	
+}
+.tal
+{
+	font-family: 'Nunito Sans', sans-serif;
+	color: #595858;
+	font-size:18px;
+	
+}
+.tf2
+{
+	font-family: 'Nunito Sans', sans-serif;
+	color: black;
+	font-size:17px;
+	
+	
+}
+
+.choose {
+  display: inline-block;
+  border: solid #E0E0E0;
+  border-radius: 15px;
+  background-color: white;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  width: 380px;
+  height:50px;
+  cursor: pointer;
+  
+}
+.choose:hover {
+ 	border: solid #B9B9B9;
+}
+
+
+.color {
+  display: inline-block;
+  border: solid #E0E0E0;
+  border-radius: 15px;
+  background-color: white;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  width: 90px;
+  height:70px;
+  cursor: pointer;
+  
+}
+.color:hover {
+ 	border: solid #B9B9B9;
+}
+
+.capacity {
+  display: inline-block;
+  border: solid #E0E0E0;
+  border-radius: 15px;
+  background-color: white;
+  padding: 10;
+  width: 80px;
+  height:50px;
+  cursor: pointer; 
+}
+.capacity:hover {
+ 	border: solid #B9B9B9;
+}
+.capfont
+{
+	font-family: 'Nunito Sans', sans-serif;
+	color: black;
+	font-size:17px;
+	text-align:center;
+	padding:1rem;;
+	
+}
+
+
+input[type="radio"] 
+{
+  display: none;
+}
+input[type="radio"]:checked + label 
+{
+   border: solid #097ADE;
+  	
+}
+
+hr
+{
+	margin-right: 90px;
+}
+
+.cartbutton {
+  display: inline-block;
+  border: solid #097ADE;
+  border-radius: 15px;
+  background-color: #097ADE;
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #FFFFFF;
+  font-size:15px;
+  padding: 10px;
+  width: 120px;
+  height:40px;
+  cursor: pointer;
+  
+}
+.cartbutton:hover {
+ 	border: solid #7EC4FF;
+	background-color: #7EC4FF;
+}
+

@@ -1,0 +1,100 @@
+
+<html>
+<head>
+	<title> Buy iMac - Apple </title>
+	<link rel="stylesheet" href="css/stylebuy.css"> 
+	<script src ="js/buy.js"> </script>
+	
+</head>
+	<iframe  src = topop.html scrolling ="no" height =8% width =100% style="border:0px;position: fixed;">
+	</iframe>
+<body>
+	<br><br><br><br><br>
+	<div class="hfra">iMac<hr></div>
+	
+	<br><br><br>
+	<center>
+	<form method="post" action="php/usercart.php">
+	<table width=75%>
+		<tr>
+			<td>
+				<img id="imac" src = gimg/imac.png width=430 height=300>
+			</td>
+			<td>
+				<div class="hf">Buy the iMac.</div><br><br>
+				<div class="tf2">Choose your new iMac.</div><br>
+				<input type="radio" id="iMac 21.5" name="model" value="iMac 21.5">
+				<label class="choose" for="iMac 21.5" onclick="imac21(imac)">
+					<table>
+						<tr>
+							<td>
+								<div class="tf2">&nbsp&nbsp&nbsp iMac 21.5 inch &nbsp&nbsp&nbsp<br>
+									<div class="tas">&nbsp&nbsp&nbsp 2.3GHz Dual-Core 
+								</div></div>
+							</td>
+							<td>
+								<div class="tal">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp From Rs 99900</div>
+							</td>
+						</tr>
+					</table>
+					</label><br><br>
+					
+				<input type="radio" id="iMac 27" name="model" value="iMac 27">	
+				<label class="choose" for="iMac 27" onclick="imac27(imac)">
+					<table>
+						<tr>
+							<td>
+								<div class="tf2">&nbsp&nbsp&nbsp iMac 27 inch &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<br>
+									<div class="tas">&nbsp&nbsp&nbsp 3.1GHz 6-Core 
+								</div></div>
+							</td>
+							<td>
+								<div class="tal">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp From Rs 169900</div>
+							</td>
+						</tr>
+					</table>
+				</label>
+				<br><br><hr><br><br>
+				
+				<div class="tf2">Choose your finish.</div><br>
+				
+				<input type="radio"  id="c1" name="selectcolor" value="Silver" checked>
+				<label class="color" for="c1">
+					<img src = gimg/isi.png width=80 height=80></span>
+				</label>
+				<br><br><hr><br><br>
+				
+				<div class="tf2">Choose your capacity.</div><br>
+				
+				<input type="radio" id="256gb" name="selectcap" value="256gb">
+				<label class="capacity" for="256gb">
+				<div class="capfont">256GB</div>
+				</label>&nbsp&nbsp&nbsp&nbsp
+				
+				<input type="radio" id="512gb" name="selectcap" value="512gb">
+				<label class="capacity" for="512gb">
+				<div class="capfont">512GB</div>
+				</label>&nbsp&nbsp&nbsp&nbsp
+				
+				<input type="radio" id="1tb" name="selectcap" value="1tb">
+				<label class="capacity" for="1tb">
+					<div class="capfont">1TB</div>
+				</label>
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp</td>
+			<td>
+				<br><br>
+			<input  class="cartbutton" type="submit" value="Add to Cart">	
+		</td>
+		</tr>
+	</table>
+	</form>
+	<br><br><br><br><br><br><br><br>
+
+	
+</body>
+<iframe  src = bottom.html scrolling ="no" height =45% width =100% style="border:0px">
+</iframe>
+</html>

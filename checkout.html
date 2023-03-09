@@ -1,0 +1,51 @@
+<html>
+<head>
+	<title> Apple-Checkout </title>
+	<link rel=stylesheet href="css/styleorder.css">
+	<script src ="js/checkoutvalidation.js"> </script>
+
+</head>
+<iframe  src = topop.html scrolling ="no" height =8% width =100% style="border:0px;position: fixed;">
+</iframe>
+<body>
+<br><br><br><br><br><br>
+		<form  onsubmit="return ValidateForm(this)"   method="post" action="php/checkout.php">
+		<div class="reghead">Billing Address<br><br>
+		<table  align = "center">
+		<tr>
+		<td> <input type = "text" name ="fullname" id=regpage  placeholder="Full Name"></td>
+		<td> <input type = "text" name ="mail" id=regpage  placeholder="E-Mail"></td>
+		</tr>	
+		<tr>
+		<td> <input type = "text" name ="address" id=regpage  placeholder="Address"></td>
+		<td> <input type = "text" name ="city" id=regpage  placeholder="City"></td>
+		</tr>
+		<tr>
+		<td> <input type = "text" name ="state" id=regpage  placeholder="State"></td>
+		<td> <input type = "text" name ="zip" id=regpage  placeholder="Zip"></td>
+		</tr>
+		</table>
+			<br><br>
+			<div class="reghead">Payment</div><br>
+			<div class="ulfont">Accepted Cards<br><br></div>
+			<img src = img/payment.png height = 30 width = 170><br><br>
+		<table  align = "center">
+		<tr>
+		<td> <input type = "text" name ="cardname" id=regpage  placeholder="Name on Card"></td>
+		<td> <input type = "int" name ="creditcardnumber" id=regpage  placeholder="Credit card number"></td>
+		</tr>	
+		<tr>
+		<td> <input type = "text" name ="exp" id=regpage  placeholder="MM/YY"></td>
+		<td> <input type = "password" name ="cvv" id=regpage  placeholder="CVV"></td>
+		</tr>
+		
+		<td colspan=2 align = "center">
+			<a href = "cart.php" target = "_parent">
+			<input  type = "button" class="regpagebutton" name="backcart" value = "Back to Cart"></a>
+			<input  type = "submit" class="regpagebutton" name="checkout" value = "Order">
+		</td>
+		</tr>
+	</table>
+</form>
+</body>		
+</html>

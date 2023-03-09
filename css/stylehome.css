@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@150&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,200&display=swap');
+
+body
+{
+	margin: 0;
+}
+
+td
+{
+    text-align: center;
+    vertical-align: middle;
+	padding: 15px;
+}
+a:hover 
+{
+  display: inline;
+  color: white;
+  
+}
+a {
+  color: #097ADE;
+  text-decoration:none;
+}
+.hf
+{
+	
+	font-family: 'Open Sans', sans-serif;
+	color: #E5E7E9;
+	font-size:45px;
+	text-align:center;
+}
+
+.pb
+{
+	font-family: 'Noto Sans JP', sans-serif;
+	color: #E5E7E9;
+	font-size:25px;
+	text-align:center;
+}
+.pa
+{
+	font-family: 'Nunito Sans', sans-serif;
+	color: #909497 ;
+	font-size:16px;
+	text-align:center;
+}
+
+.lf{
+	font-family: 'Nunito Sans', sans-serif;
+	font-size:20px;
+	color: '#909497 ';
+	text-align:center;
+}
+.tf
+{
+	font-family: 'Open Sans', sans-serif;
+	color: #E5E7E9;
+	font-size:25px;
+	text-align:center;
+}
+
+.ta
+{
+	font-family: 'Nunito Sans', sans-serif;
+	color: #E5E7E9;
+	font-size:15px;
+	text-align:center;
+}
+.pbottom
+{
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-right: 150px;
+	margin-left: 120px;
+	font-family: 'Noto Sans JP', sans-serif;
+	color: #909497 ;
+	font-size:12px;
+	
+}
+

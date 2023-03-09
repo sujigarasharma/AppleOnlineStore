@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title> Apple-User Login </title>
+	<link rel=stylesheet href="css/styleul.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	  <script>
+	  	$(document).ready(function(){
+	    	$("#panel").ready(function()
+	  		{
+	  			setTimeout(function(){  $("#panel").slideUp("slow"); }, 2300);
+   
+	    });
+	  });
+	  </script>
+		  
+		
+</head>
+<body bgcolor=#F0F2F2 align = "center">
+	<br>
+	<video src ="mov/12intro.mov" id="panel" width="100%" height="99%" autoplay loop muted></video>
+	<img src="img/appleall.png" id="img1" width=600 height=250>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<img id="img2" src="img/macpng.png">
+	<br>
+	<form id=userform method="post" action="php/userloginval.php">
+		<div class="ulfont">User login<br><br>
+		<table  align = "center">
+		<tr>
+		<td> <input type = "text" name ="username" id=userlogin  placeholder="User Name"></td>
+		</tr>
+		<tr>
+		<td> <input type = "password" name ="userpassword" id=userlogin placeholder="Password"></td>
+		</tr>
+		<tr>
+		<td>
+			<input  type = "submit" class="ubutton" name="SignIn" value = "Sign In">
+			<a href = "register.html" target = "_parent">
+			<input  type = "button" class="ubutton" name="SignUp" value = "Sign Up"></a>
+		</td>
+		</tr>
+	</table>
+</form>
+
+</body>		
+</html>

@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title> Apple-User Registration </title>
+	<link rel=stylesheet href="css/styleul.css">
+	<script src ="js/formvalidation.js"> </script>
+</head>
+<body bgcolor=black align = "center">
+<img  src="img/appledev1.png"  width=600 height=250>
+<br><br><br>
+		<form  onsubmit="return ValidateForm(this)"   method="post" action="php/userreg.php">
+		<div class="reghead">User Registration<br><br>
+		<table  align = "center">
+		<tr>
+		<td> <input type = "text" name ="firstname" id=regpage  placeholder="First Name"></td>
+		<td> <input type = "text" name ="lastname" id=regpage  placeholder="Last Name"></td>
+		</tr>	
+		<tr>
+		<td> <input type = "text" name ="mail" id=regpage  placeholder="E-Mail"></td>
+		<td> <input type = "text" name ="phone" id=regpage  placeholder="Contact number"></td>
+		</tr>
+		<tr>
+		<td>
+			<div class="regfont">Gender
+		</td>	
+		<td>
+			<div class="regfont">
+	        <input type="radio" name="gender" id="Male" value="Male" checked>
+	        <label for="Male">Male</label> &nbsp &nbsp / &nbsp &nbsp
+	        <input type="radio" name="gender" id="Female" value="Female">
+	        <label for="Female">Female</label>
+		</td>
+		</tr>
+		<tr>
+		<td>
+			<div class="regfont">Date of birth
+		</td>	
+		<td>
+			<input type = "date" name ="dob" id=regpage></td>
+		</td>
+		</tr>
+		<tr>
+		<td> <input type = "password" name ="userpassword" id=regpage placeholder="Password"></td>
+		<td> <input type = "password" name ="repassword" id=regpage  placeholder="Re-Enter Password"></td>
+		</tr>
+		<tr>
+		<td colspan=2>
+			<a href = "userlogin.html" target = "_parent">
+			<input  type = "button" class="regpagebutton" name="loginpage" value = "User Login" ></a>
+			<input  type = "submit" class="regpagebutton" name="Register" value = "Register">
+		</td>
+		</tr>
+	</table>
+</form>
+</body>		
+</html>
