@@ -4,11 +4,11 @@ This is an Online Apple Store Management System Project in HTML & PHP. This proj
 
 
 TECHNICAL USED
-Front-End
+-> Front-End
 • HTML
 • CSS
 • JavaScript
-Back-End
+-> Back-End
 • PHP
 • MySQL
 
