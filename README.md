@@ -28,22 +28,24 @@ HARDWARE REQUIREMENTS
 • Monitor
  
  
+ 
+ 
  SNAPSHOTS
 
 
-<img width="468" alt="image" src="https://user-images.githubusercontent.com/114681230/227534581-48ab6cae-cfb4-4fdd-9cf3-bd3c395cd61a.png">
-<img width="468" alt="image" src="https://user-images.githubusercontent.com/114681230/227534683-11a4555c-9bc7-4e87-8f37-6fa264e82304.png">
-![image](https://user-images.githubusercontent.com/114681230/227534749-ef739822-da2f-44fd-9806-a57e92919a72.jpeg)
-![image](https://user-images.githubusercontent.com/114681230/227534763-d35072b3-e9eb-4961-9476-e280a7300175.jpeg)
-![image](https://user-images.githubusercontent.com/114681230/227534802-10848f1c-d2f9-4814-8a13-6fc68f9f0d94.jpeg)
-<img width="356" alt="image" src="https://user-images.githubusercontent.com/114681230/227534890-f1a1abcc-f56a-42cb-bfe4-15958ea36d06.png">
-<img width="353" alt="image" src="https://user-images.githubusercontent.com/114681230/227534992-988a8477-98cd-435d-99d4-8bebce796be2.png">
-![image](https://user-images.githubusercontent.com/114681230/227535009-e5afd769-9ce1-4714-b745-36cb573ef4cf.jpeg)
-![image](https://user-images.githubusercontent.com/114681230/227535021-6a60d83c-6846-424a-ace6-c16f26e1bcc7.jpeg)
-![image](https://user-images.githubusercontent.com/114681230/227535035-93985cd3-3234-48d6-9f05-dd6b655e0a31.jpeg)
-![image](https://user-images.githubusercontent.com/114681230/227535050-56c86743-49b2-47a8-be63-0ec42ef14616.jpeg)
-<img width="356" alt="image" src="https://user-images.githubusercontent.com/114681230/227535075-27b2d49c-9d35-4bff-9f92-0c5870a2aaec.png">
-
+<img width="342" alt="image" src="https://user-images.githubusercontent.com/114681230/227535299-ad045243-418b-40ac-9f95-9a2ccbb97c6b.png">
+<img width="355" alt="image" src="https://user-images.githubusercontent.com/114681230/227535386-feff0ee4-5069-4410-a4c5-4db7cfd128dc.png">
+<img width="359" alt="image" src="https://user-images.githubusercontent.com/114681230/227535813-9f3acf45-fa09-4529-8dda-ef1ddd44875a.png">
+<img width="352" alt="image" src="https://user-images.githubusercontent.com/114681230/227535455-b5c4ccc8-3469-4925-8d7e-a1ca27e1e3a4.png">
+<img width="365" alt="image" src="https://user-images.githubusercontent.com/114681230/227536278-54b48e5a-ee6d-4389-999e-0af2c8de0cc3.png">
+<img width="357" alt="image" src="https://user-images.githubusercontent.com/114681230/227535485-73d31b41-b16d-43fd-b6fa-a7b115c16efc.png">
+<img width="362" alt="image" src="https://user-images.githubusercontent.com/114681230/227535517-c8b6e867-1a3a-40db-b6dc-a6a726a83216.png">
+<img width="358" alt="image" src="https://user-images.githubusercontent.com/114681230/227535557-bf1df75e-0b17-46ea-b7fd-86b1c4188b28.png">
+<img width="354" alt="image" src="https://user-images.githubusercontent.com/114681230/227535590-91815232-040e-4be3-8fb3-9f711ef4412f.png">
+<img width="362" alt="image" src="https://user-images.githubusercontent.com/114681230/227535624-a410a247-150b-4ef5-b442-1821b4f9af07.png">
+<img width="352" alt="image" src="https://user-images.githubusercontent.com/114681230/227535651-8bba6d6e-9302-4573-852c-a79d742cd39c.png">
+<img width="355" alt="image" src="https://user-images.githubusercontent.com/114681230/227535691-9b7035fd-9223-4feb-99e6-bf26caf4d190.png">
+<img width="362" alt="image" src="https://user-images.githubusercontent.com/114681230/227535714-c3652ff9-eebc-4c2b-905f-05a7db6ee126.png">
 
 
 
