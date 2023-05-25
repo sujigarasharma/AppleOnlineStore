@@ -51,7 +51,7 @@ if ($conn->connect_error) {
 	if($getusername==$username && $getuserpassword==$userpassword)
 	{
 		
-		header("Location: http://localhost:8080/AppleOnlineStore/home.html ");
+		header("Location:home.html ");
 		$_SESSION["username"]=$username;
 
 	}
