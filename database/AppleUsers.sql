@@ -48,8 +48,8 @@ CREATE TABLE `orderdetail` (
 --
 
 INSERT INTO `orderdetail` (`order_id`, `usermail`, `FullName`, `Email`, `Address`, `City`, `State`, `ZIP`, `Nameoncard`, `cardnumber`, `totalamount`, `tax`, `grandtotal`) VALUES
-('1286334000', 'bavansharma.k@gmail.com', 'Bavan Sharma', 'bavanssharma@gmail.com', 'No 120/25, Mill Road, Ukkulankulam', 'Vavuniya', 'TN', '43000', 'visa', '1234567890123456', '161900.00', '3238.00', '165138.00'),
-('1875457676', 'bavansharma.offi@gmail.com', 'Bavan', 'bavansharma@icloud.com', 'No 120/25, Mill Road, Ukkulankulam', 'Vavuniya', 'TN', '43000', 'VISA', '1234567890123456', '708800.00', '14176.00', '722976.00');
+('1286334000', 'bavan@gmail.com', 'Bavan', 'bavan@gmail.com', 'No 11', 'katpadi', 'TN', '632010', 'visa', '1234567890123456', '161900.00', '3238.00', '165138.00'),
+('1875457676', 'iambavan@gmail.com', 'Bavan', 'iambavan@gmail.com', 'No 10', 'katpadi', 'TN', '632010', 'VISA', '1234567890123456', '708800.00', '14176.00', '722976.00');
 
 -- --------------------------------------------------------
 
@@ -71,11 +71,11 @@ CREATE TABLE `orderproduct` (
 --
 
 INSERT INTO `orderproduct` (`order_id`, `Email`, `model`, `finish`, `capacity`, `price`) VALUES
-('1286334000', 'bavansharma.k@gmail.com', 'MacBook Air', 'SpaceGray', '256gb', '92900.00'),
-('1286334000', 'bavansharma.k@gmail.com', 'iPhone12mini', 'White', '64gb', '69000.00'),
-('1875457676', 'bavansharma.offi@gmail.com', 'MacBook Pro 16', 'SpaceGray', '512gb', '194900.00'),
-('1875457676', 'bavansharma.offi@gmail.com', 'iPhone11', 'Green', '128gb', '64000.00'),
-('1875457676', 'bavansharma.offi@gmail.com', 'Pro Display XDR', 'White', '-', '449900.00');
+('1286334000', 'bavan@gmail.com', 'MacBook Air', 'SpaceGray', '256gb', '92900.00'),
+('1286334000', 'bavan@gmail.com', 'iPhone12mini', 'White', '64gb', '69000.00'),
+('1875457676', 'iambavan@gmail.com', 'MacBook Pro 16', 'SpaceGray', '512gb', '194900.00'),
+('1875457676', 'iambavan@gmail.com', 'iPhone11', 'Green', '128gb', '64000.00'),
+('1875457676', 'iambavan@gmail.com', 'Pro Display XDR', 'White', '-', '449900.00');
 
 -- --------------------------------------------------------
 
@@ -98,11 +98,11 @@ CREATE TABLE `usercart` (
 --
 
 INSERT INTO `usercart` (`cartid`, `Email`, `model`, `finish`, `capacity`, `price`, `img`) VALUES
-(1, 'bavansharma.k@gmail.com', 'MacBook Pro 13', 'SpaceGray', '256gb', '129900.00', 'gimg/mbp13sgl.png'),
-(2, 'bavansharma.k@gmail.com', 'iPhone12', 'Green', '128gb', '89000.00', 'gimg/ip12g.png'),
-(1, 'bavansharma.offi@gmail.com', 'AirTag', 'White', '-', '3190.00', 'gimg/airtag.png'),
-(2, 'bavansharma.offi@gmail.com', 'Apple Watch Series 3', 'Silver', '44mm', '23900.00', 'gimg/aws3sil.png'),
-(3, 'bavansharma.offi@gmail.com', 'iPad Pro', 'Space Gray', '64gb', '71900.00', 'gimg/ippsg.png');
+(1, 'bavan@gmail.com', 'MacBook Pro 13', 'SpaceGray', '256gb', '129900.00', 'gimg/mbp13sgl.png'),
+(2, 'bavan@gmail.com', 'iPhone12', 'Green', '128gb', '89000.00', 'gimg/ip12g.png'),
+(1, 'iambavan@gmail.com', 'AirTag', 'White', '-', '3190.00', 'gimg/airtag.png'),
+(2, 'iambavan@gmail.com', 'Apple Watch Series 3', 'Silver', '44mm', '23900.00', 'gimg/aws3sil.png'),
+(3, 'iambavan@gmail.com', 'iPad Pro', 'Space Gray', '64gb', '71900.00', 'gimg/ippsg.png');
 
 -- --------------------------------------------------------
 
@@ -125,7 +125,7 @@ CREATE TABLE `userinfo` (
 --
 
 INSERT INTO `userinfo` (`FirstName`, `LastName`, `EMail`, `Contactnumber`, `Gender`, `DateOfBirth`, `Password`) VALUES
-('Bavan', 'Sharma', 'bavansharma@apple.com', 1234567890, 'Male', '2000-01-01', 'aPPle3#2022');
+('Bavan', 'K', 'bavan@gmail.com', 1234567890, 'Male', '2000-01-01', 'apple123');
 
 --
 -- Indexes for dumped tables
